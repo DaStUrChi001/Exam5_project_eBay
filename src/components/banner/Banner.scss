@@ -1,0 +1,28 @@
+.banner-wrapper{
+    margin-top: 10px;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 56px;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        color: #555555;
+        li{
+            padding-bottom: 9px;
+            border-bottom: 1px solid transparent;
+        }
+        li:first-child{
+            font-weight: 700;
+            color: #333333;
+            border-bottom: 1px solid #333333;
+        }
+    }
+    .banner-img{
+        width: 1292px;
+    }
+    .ad{
+        margin-top: 52px;
+        margin-left: 292px;
+    }
+}

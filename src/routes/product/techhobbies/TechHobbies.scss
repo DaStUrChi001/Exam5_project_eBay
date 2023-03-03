@@ -1,0 +1,160 @@
+.tech-hobbies{
+    margin-top: 48px;
+    padding: 48px 33px 0;
+    background: #F8F8F8;
+    .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo-wrapper{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            .title-wrapper{
+                h2{
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin-bottom: 13px;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #333333;
+                    span{
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .btn-wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            button{
+                width: 215px;
+                height: 40px;
+                color: #3665F3;
+                border: 1px solid #3665F3;
+                border-radius: 20px;
+                &:first-child{
+                    font-weight: 700;
+                    color: #FFFFFF;
+                    background: #3665F3;
+                }
+            }
+        }
+    }
+    .text-wrapper{
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+        h3{
+            font-size: 20px;
+            font-weight: 700;
+            color: #111820;
+        }
+        span{
+            color: #707070;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            .detail{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                span{
+                    font-size: 14px;
+                }
+                .info{
+                    display: flex;
+                    gap: 300px;
+                    align-items: center;
+                    font-size: 14px;
+                    color: #333333;
+                    .letters{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 13px;
+                    }
+                    .numbers{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 13px;
+                    }
+                }
+            }
+            .categories{
+                span{
+                    margin-left: 15px;
+                    font-size: 13px;
+                    color: #111820;
+                }
+                button{
+                    width: 204px;
+                    height: 33px;
+                    margin-top: 14px;
+                    font-size: 13px;
+                    color: #000000;
+                    background: #E5E5E5;
+                    border-radius: 32px;
+                }
+            }
+        }
+        .right{
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            span{
+                font-size: 20px;
+            }
+            .item{
+                display: flex;
+                gap: 20px;
+                p{
+                    font-size: 13px;
+                    border-bottom: 2px solid #191919;
+                    &:last-child{
+                        font-size: 14px;
+                        color: #707070;
+                        border-color: transparent;
+                    }
+                }
+            }
+            .right-items{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                li{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    .icon{
+                        display: flex;
+                        gap: 20px;
+                        align-items: center;
+                        svg{
+                            color: #05823F;
+                        }
+                        span{
+                            font-size: 10px;
+                            &:last-child{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                    .line{
+                        width: 100%;
+                        height: 1px;
+                        background: #E5E5E5;
+                    }
+                }
+            }
+        }
+    }
+}

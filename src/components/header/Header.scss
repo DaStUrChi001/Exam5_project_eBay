@@ -1,0 +1,24 @@
+.account{
+    margin: 0 32px;
+    padding: 9px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    border-bottom: 1px solid #E5E5E5;
+    div{
+        display: flex;
+        gap: 24px;
+        .link{
+            color: blue;
+        }
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+}

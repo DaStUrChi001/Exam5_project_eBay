@@ -1,0 +1,35 @@
+.category-products-footer {
+    margin-top: 150px;
+    padding: 54px 0 63px 26px;
+    width: 100%;
+    border-top: 1px solid #CCCCCC;
+
+    .footer-nav {
+        display: flex;
+        gap: 24px;
+
+        li {
+            font-size: 11px;
+            color: #767676;
+        }
+    }
+
+    .text {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 11px;
+
+        p {
+            margin-right: 10px;
+            color: #41413F;
+        }
+
+        span {
+            font-size: 10px;
+            text-decoration: underline;
+            color: #707070;
+        }
+    }
+}

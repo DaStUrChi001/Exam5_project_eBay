@@ -1,0 +1,119 @@
+section.category-products{
+    padding: 27px 145px;
+    .title{
+        padding-bottom: 25px;
+        border-bottom: 1px solid #E5E5E5;
+        color: #333333;
+        h1{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        img{
+            margin-top: 17px;
+        }
+        p{
+            margin-top: 25px;
+            margin-left: 16px;
+            font-size: 17px;
+        }
+        span{
+            margin-top: 5px;
+            margin-left: 16px;
+            font-size: 14px;
+            color: #707070;
+        }
+    }
+    .categories{
+        padding: 25px 0;
+        color: #333333;
+        border-bottom: 1px solid #E5E5E5;
+        h2{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .categories-wrapper{
+            margin-top: 17px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            .category-item {
+                display: flex;
+                flex-direction: column;
+                text-decoration: none;
+                .category-image {
+                  width: 150px;
+                  height: 150px;
+                }
+                h3 {
+                  margin-top: 15px;
+                  font-size: 17px;
+                  text-transform: capitalize;
+                }
+            }
+        }
+    }
+    .all-products{
+        padding-top: 27px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-family: sans-serif;
+        .product-item{
+            width: 257px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            padding: 8px;
+            word-break: break-word;
+            a{
+                text-decoration: none;
+            }
+            h4{
+                margin-top: 5px;
+                font-size: 14px;
+                font-weight: 700;
+                color: #111820;
+            }
+            .product-item__image{
+                width: 100%;
+                object-fit: cover;
+            }
+            .product-info-wrapper{
+                .product-info{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6px;
+                    p{
+                        display: flex;
+                        gap: 5px;
+                        font-size: 14px;
+                        align-items: center;
+                        svg{
+                            color: #3665F3;
+                        }
+                        &:last-child{
+                            font-size: 13px;
+                            color: #151E27;
+                        }
+                    }
+                    strong{
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    span{
+                        font-size: 14px;
+                        color: #707070;
+                    }
+                    .red{
+                        color: #DD1E31;
+                    }
+                }
+                div+p{
+                    margin-top: 50px;
+                    font-size: 12px;
+                    color: #707070;
+                }
+            }
+        }
+    }
+}
